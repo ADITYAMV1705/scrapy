@@ -188,3 +188,27 @@ h2 {
     height: 40px; /* Decreased logo height */
   }
   
+
+
+  /* Styles for product name */
+.product-name {
+    font-weight: 700;
+    font-size: 1.1rem; /* Slightly larger font size */
+    color: #333; /* Dark color for better readability */
+    margin: 0;
+    text-align: center; /* Center align the product name */
+    padding: 5px 0; /* Add vertical padding */
+}
+
+/* Styles for product price */
+.product-description td {
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem; /* Set a base font size for price */
+}
+
+/* Specific styles for price cells */
+.product-description td[id^="price-"] {
+    font-weight: bold;
+    color: #e74c3c; /* Use a distinct color for prices */
+}
